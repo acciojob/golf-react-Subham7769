@@ -1,0 +1,10 @@
+
+.ball{
+    background-color: black;
+    box-shadow: 0 10px 10px -6px;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+    display: none;
+}
