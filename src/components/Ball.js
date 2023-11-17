@@ -3,9 +3,9 @@ import React from 'react'
 const Ball = () => {
   
   function hideShow(e){
-    e.target.style.display ="none";
-    console.log(e.target.nextSibling);
     e.target.nextSibling.style.display = "block";//accessing ball
+    e.target.remove();
+    console.log(e.target.nextSibling);
   }
   
   const moveBallLeft = (e) => {
