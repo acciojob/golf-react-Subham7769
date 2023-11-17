@@ -22,7 +22,7 @@ const Ball = () => {
 
   return (
     <div>
-      <button onClick={hideShow}>Start</button>
+      <button onClick={hideShow} className='start'>Start</button>
       <div id='ball' className='ball' style={{left:"10px"}} ></div>
     </div>
   )
